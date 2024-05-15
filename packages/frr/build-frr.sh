@@ -10,7 +10,7 @@ if [ ! -d ${FRR_SRC} ]; then
 fi
 
 # VyOS requires some small FRR Patches - apply them here
-# It's easier to habe them here and make use of the upstream
+# It's easier to have them here and make use of the upstream
 # repository instead of maintaining a full Fork.
 # Saving time/resources is essential :-)
 cd ${FRR_SRC}
